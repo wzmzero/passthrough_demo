@@ -1,7 +1,5 @@
-# passthrough 
-## passthrough_demo
-### tcp/udp/serial 数据透传
 channels:
+
   - name: "Channel 1"
     input:
       type: "udp_server"

@@ -1,0 +1,40 @@
+{
+  "channels": [
+    {
+      "name": "Channel 1",
+      "input": {
+        "type": "tcp_server",
+        "listen_port": 8002
+      },
+      "output": {
+        "type": "tcp_client",
+        "server_ip": "192.168.145.1",
+        "server_port": 8080
+      }
+    },
+    {
+      "name": "Channel 2",
+      "input": {
+        "type": "tcp_server",
+        "listen_port": 8003
+      },
+      "output": {
+        "type": "serial",
+        "port": "/dev/ttyS0",
+        "baud_rate": 9600
+      }
+    },
+        {
+      "name": "Channel 3",
+      "input": {
+        "type": "udp_client",
+        "server_ip": "192.168.145.1",
+        "server_port": 8090
+      },
+      "output": {
+        "type": "tcp_server",
+        "listen_port": 8004
+      }
+    }
+  ]
+}
