@@ -3,9 +3,16 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/test2_modbus/inc"
+                "${workspaceFolder}/test2_modbus/inc",
+                "${workspaceFolder}/test1_v4"
                 //  "${workspaceFolder}/**"
             ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/test1_v4"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c17",

@@ -46,12 +46,12 @@
       "preLaunchTask": "${input:qemuTask}", // 调试前自动启动 QEMU
     },
     {
-      "name": "Debug test1",
+      "name": "Debug test1_sql",
       "type": "cppdbg",
       "request": "launch", // 改为附加模式
-      "program": "${workspaceFolder}/test1/protocol_converter",
+      "program": "${workspaceFolder}/test1_sql/protocol_converter",
       "args": [""],
-      "cwd": "${workspaceFolder}/test1",
+      "cwd": "${workspaceFolder}/test1_sql",
        "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
       "environment": [],

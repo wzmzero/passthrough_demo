@@ -68,7 +68,15 @@
         "forward_list": "cpp",
         "ranges": "cpp",
         "valarray": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "complex": "cpp",
+        "coroutine": "cpp",
+        "source_location": "cpp",
+        "future": "cpp",
+        "shared_mutex": "cpp",
+        "cinttypes": "cpp",
+        "typeindex": "cpp",
+        "unordered_set": "cpp"
     },
     "cmake.ignoreCMakeListsMissing": true
 }
